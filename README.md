@@ -9,7 +9,7 @@ Brian Silverman's 'wireworld' is a Turing-complete cellular automaton. It is abl
   a. Becomes an electron head IF exactly 1 or 2 neighboring cells are electron heads.
   b. Remains a conductor.
 
- This version, written in vanilla JavaScript, features a full walk through of functionality using modals as well as a built-in binary adding machine.
+This version, written in vanilla JavaScript, features a full walk through of functionality using modals as well as a built-in binary adding machine.
 
 ###Screenshot:
 ![xor]

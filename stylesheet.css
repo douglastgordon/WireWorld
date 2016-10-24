@@ -1,0 +1,175 @@
+body {
+  text-align: center;
+}
+h1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: block;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.guide {
+  text-align: left;
+  display: block;
+  background-color: white;
+  z-index: 1;
+  float: left;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  top: 300px;
+  /*left: 310px;*/
+  position: absolute;
+
+}
+
+.guide li {
+  font-family: futura;
+  font-size: 14px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+
+}
+
+.board {
+  float: left;
+  width: 90%;
+  margin-left: 20px;
+
+}
+
+td {
+  border: 1px solid grey;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.empty {
+  background: black;
+}
+.conductor {
+  background-color: #FFF9C4;
+}
+.electron-head {
+  background: #F44336;
+}
+.electron-tail {
+  background: #536DFE;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 2;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px; /* Could be more or less, depending on screen size */
+    /*text-align: left;*/
+}
+
+.modal-title {
+
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  line-height: 16px;
+  text-align: left;
+  font-family: futura;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+
+}
+
+.modal-list {
+  list-style: decimal;
+  margin: 25px;
+  text-align: left;
+
+}
+
+.modal-list li{
+  font-family: futura;
+  font-size: 14px;
+  margin-bottom: 3px;
+  line-height: 16px;
+
+}
+
+#example-board td {
+  width: 20px;
+  height: 20px;
+}
+
+#example-board {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+button {
+  font-family: futura;
+  font-size: 16px;
+  font-style: italic;
+  border: 0;
+  background: none;
+}
+
+button:hover {
+  color: #FF9800;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

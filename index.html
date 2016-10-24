@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>WireWorld</title>
+    
+
+  </head>
+  <body>
+
+    <!-- <button type="button" id="addRow" name="AddRow">Add Row</button>
+    <button type="button" id="addcolumn" name="AddColumn">Add Column</button>
+    <button type="button" id="removeRow" name="RemoveRow">Remove Row</button>
+    <button type="button" id="removecolumn" name="RemoveColumn">Remove Column</button> -->
+
+    <div id=0 class="modal">
+      <div class="modal-content">
+        <span class="close">x</span>
+        <h2 class="modal-title">welcome</h2>
+        <p class="modal-text">Welcome to wireworld, a sandbox where a few simple rules and some ingenuity can be used to create infinitely complex machines. But first, let's start with the basics. Click next to continue.</p>
+        <ul class="modal-list" style="display: none;">
+          <li>Empty cells stay empty.</li>
+          <li>Electron heads become electron tails.</li>
+          <li>Electron tails become wire segments</li>
+          <li>Wire segments become electron heads if they border either one or two other electron heads. Otherwise they stay as wire segments.</li>
+        </ul>
+        <p class="modal-text2"></p>
+        <div class="buttons" style="display: none;">
+          <button type="button" class="tick" name="Tick">Cycle</button>
+          <button type="button" class="binary" name="RunBinaryCounter">Run Binary Counter</button>
+          <button type="button" class="play" name="Play">Play</button>
+          <button type="button" class="stop" name="Stop">Stop</button>
+          <button type="button" class="reset" name="Reset">Reset</button>
+        </div>
+        <table id="example-board"></table>
+        <button type="button" name="previous" id="previous" style="display: none;">previous</button>
+        <button type="button" name="next" id="next">next</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>WireWorld</h1>
+      <div class="main-buttons">
+        <button type="button" class="tick" name="Tick">Cycle</button>
+        <button type="button" class="play" name="Play">Play</button>
+        <button type="button" class="stop" name="Stop">Stop</button>
+        <button type="button" class="reset" name="Reset">Reset</button>
+        <button type="button" class="binary" name="RunBinaryCounter">Run Binary Counter</button>
+        <button type="button" id="open-modal">Instructions</button>
+      </div>
+      <div class="main-content">
+      <table id="board"></table>
+      <ul class="guide">
+        <li>t + click: timer</li>
+        <li>d + click: diode</li>
+        <li>n + click: NOT gate</li>
+        <li>o + click: OR gate</li>
+        <li>x + click: XOR gate</li>
+        <li>a + click: AND gate</li>
+        <li>f + click: flip-flop</li>
+        <li>b + click: binary adder</li>
+      </ul>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="lib/bundle.js"></script>
+
+
+</html>

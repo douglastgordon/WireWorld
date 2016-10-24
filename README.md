@@ -11,10 +11,10 @@ Brian Silverman's 'wireworld' is a Turing-complete cellular automaton. It is abl
 
  This version, written in vanilla JavaScript, features a full walk through of functionality using modals as well as a built-in binary adding machine.
 
-#Screenshot:
-![binary_adder]
+###Screenshot:
+![xor]
 
-#Technical Details:
+###Technical Details:
 
 WireWorld uses vanilla JavaScript to accomplish advanced DOM-Manipulation and easily navigable modals. Below is a function which dictates the state (represented by class name) of every cell on the grid depending on its current class and neighboring cells.
 
@@ -43,4 +43,4 @@ const tick = (cell) => {
 * built-in components
 * vanilla JS DOM Manipulation
 
-[binary adder]: ./xorscreenshot.png
+[xor]: ./images/xorscreenshot.png

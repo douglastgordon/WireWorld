@@ -10,6 +10,34 @@ h1 {
   margin-bottom: 20px;
 }
 
+img {
+  width: 34px;
+  height: auto;
+}
+
+.icons {
+  width: 80px;
+  position: relative;
+  bottom: 10px;
+  left: -5px;
+  float: right;
+
+
+}
+
+.me {
+  float: left;
+  position: relative;
+  top: 2px;
+}
+
+.github {
+  float: right;
+  width: 38px;
+
+
+}
+
 .content {
   display: block;
 }

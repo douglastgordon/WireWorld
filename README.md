@@ -1,5 +1,7 @@
 #WireWorld
 
+Vist (site)[http://wireworld.co/]
+
 Brian Silverman's 'wireworld' is a Turing-complete cellular automaton. It is able to simulate electronic logic elements.  It is played on an arbitrarily large 2D rectangular grid. Each cell of the grid has four possible states: empty, electron head, electron tail or conductor. Every "tick" a cell's state may change or stay the same depending on its neighboring cells according to the following rules:
 
 1. An empty cell will remain empty.
